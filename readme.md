@@ -1,5 +1,5 @@
-# Project Name
-**Peddy**
+## Project Name
+#Peddy
 ## Short Description
 Peddy is a modern web application designed to streamline pet adoption processes. It offers a seamless user experience with features like real-time data updates and responsive design. The application leverages advanced data visualization and API integration to provide users with comprehensive information about available pets.
 
