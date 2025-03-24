@@ -222,30 +222,30 @@ const displayDetails = (petData) => {
                     <div class="grid grid-cols-2 gap-2">
                             <div class="flex items-center space-x-2">
                                 <img src="./assets/breed.png">
-                                <h5 class="text-base text-[#5a5a5a]"><b>Breed</b> : ${petData.breed ? petData.breed : "Not Available"}</h5>
+                                <h5 class="text-sm md:text-base text-[#5a5a5a]"><b>Breed</b> : ${petData.breed ? petData.breed : "Not Available"}</h5>
                             </div>
                             <div class="flex items-center space-x-2">
                                 <img src="./assets/date.png">
-                                <h5 class="text-base text-[#5a5a5a]"><b>Birth</b> : ${petData.date_of_birth ? petData.date_of_birth : "Not Available"}</h5>
+                                <h5 class="text-sm md:text-base text-[#5a5a5a]"><b>Birth</b> : ${petData.date_of_birth ? petData.date_of_birth : "Not Available"}</h5>
                             </div>
 
                             <div class="flex items-center space-x-2">
                                 <img src="./assets/gender.png">
-                                <h5 class="text-base text-[#5a5a5a]"><b>Gender</b> : ${petData.gender ? petData.gender : "Not Available"}</h5>
+                                <h5 class="text-sm md:text-base text-[#5a5a5a]"><b>Gender</b> : ${petData.gender ? petData.gender : "Not Available"}</h5>
                             </div>
                             <div class="flex items-center space-x-2">
                                 <img src="./assets/price.png">
-                                <h5 class="text-base text-[#5a5a5a]"><b>Price</b> : ${petData.price ? petData.price : "Not Available"}</h5>
+                                <h5 class="text-sm md:text-base text-[#5a5a5a]"><b>Price</b> : ${petData.price ? petData.price : "Not Available"}</h5>
                             </div>
                             <div class="flex items-center space-x-2 col-span-2">
                                 <img src="./assets/price.png">
-                                <h5 class="text-base text-[#5a5a5a]"><b>Vaccinated Status</b> : ${petData.vaccinated_status}</h5>
+                                <h5 class="text-sm md:text-base text-[#5a5a5a]"><b>Vaccinated Status</b> : ${petData.vaccinated_status}</h5>
                             </div>
                     </div>
                     <div class="divider"></div>
                     <div class="">
                         <h4 class="text-base font-semibold text-black">Details Information :</h4>
-                        <p class="text-base text-[#5a5a5a]">${petData.pet_details}
+                        <p class="text-sm md:text-base text-[#5a5a5a]">${petData.pet_details}
                         </p>
                     </div>
             </div>
